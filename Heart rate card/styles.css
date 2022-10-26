@@ -1,0 +1,56 @@
+.card{
+    background-color: white;
+    width: 220px;
+    height: min-content;
+    border: 1px solid lightgray;
+    border-radius: 9px;
+    margin:0;
+    box-shadow: 1px 2px 8px lightgray;
+}
+
+.card > img {
+    display: inline-block;
+    width: 50px;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 14px;
+}
+
+.heartrate{
+    font-size: 9px;
+    font-family: arial;
+    color: gray; 
+    font-weight:600;
+    margin:0;
+    padding-left: 90px;
+    margin-top: -40px;
+}
+
+.bpmnum{
+    display: inline-block;
+    font-size: 16px;
+    font-family: arial;
+    color: black;
+    font-weight:bold;
+    padding-left: 90px;
+    margin-top: 2px;
+}
+
+.bpm{
+    display: inline-block;
+    font-size: 11px;
+    font-family: arial;
+    color: black;
+    font-weight:bold;
+    margin:0;
+    padding-left: 5px;
+}
+
+.heartpulse{
+    width: 180px;
+    align-content: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
