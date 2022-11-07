@@ -1,0 +1,27 @@
+body{
+    background-color: hsl(180, 100%, 25%);
+    font-family: sans-serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: hsl(30,100%,60%);
+    text-align: left;
+    padding: 4px 0 4px 4px;    
+}
+
+td{
+    padding: 4px;
+}
+
+tr:nth-child(even){
+    background-color: hsl(0,0%,100%,.5)
+}
+
+tr:nth-child(odd){
+    background-color: hsl(0,0%,100%,.3)
+}
